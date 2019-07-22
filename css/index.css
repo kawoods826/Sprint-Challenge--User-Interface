@@ -270,4 +270,8 @@ footer nav a {
     height: 256px;
 }
 
-
+/* Contact CSS */ 
+.contact-top-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
