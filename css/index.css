@@ -129,6 +129,19 @@ p {
     justify-content: center;
 }
 
+@keyframes example {
+    0% {color: black; background-color:white;}
+    50% {color: gray; background-color: black;}
+    100% { color: black; background-color: white;}
+  }
+  
+  .learn-more {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+
 #box-1 {
     background-color: teal;
 }
@@ -256,3 +269,5 @@ footer nav a {
     width: 100%;
     height: 256px;
 }
+
+
