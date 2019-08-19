@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sprint Challenge - Home</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+
+
+<body>
+    
+    <div class="container">
+        <header>
+        <div class="content-1">
+            <img src="img/lambda-black.png" class = "content-1-nav" alt="lambda-logo">
+            <a href ="index.html" class = "content-1-nav">Home</a>
+            <a href ="about.html" class = "content-1-nav">About</a>
+            <a href = "products.html" class = "content-1-nav">Products</a>
+            <a href = # class = "content-1-nav">Blog</a>
+            <a href = "contact.html" class = "content-1-nav">Contact</a>
+        </div>
+        </header>
+        <img src="img/jumbo.jpg" alt="highways">
+            <div class = "contact-top-content">
+            <h1>Get in Touch with Us!</h1>
+            <p id = "description">We'd love to hear from you. Please expect a response within 1-2 business days.<p>
+            </div>
+            <form id = "survey-form">
+            <div>
+            <h3><label id = "name-label" for = "name">*Name</label> </h3>
+            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+            </div>
+            <br>
+            <div>
+            <h3><label id = "email-label" for "email">*Email <br><br></label> <input autofocus type="email" name ="email" id="email" class="input-field" placeholder="Enter your email" required></h3>
+            </div>
+            <br>
+            <div>
+            <h3><label for "contact-method">Preferred Method of Contact</label></h3>
+                <select id="dropdown" name="currentPos" class="dropdown">
+                <option disabled value>Select an option</option>
+                <option>Carrier Pigeon</option>
+                <option>Message in a Bottle</option>
+                <option>Email</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3><label for "preferences">How did you hear about us?</label></h3>
+                <ul id="preferences" style="list-style: none;">
+                    <li class="radio"><label><input name="prefer" value="1" type="radio" class="userRatings">From a friend</label></li>
+                    <li class="radio"><input name="prefer" value="2" type="radio" class="userRatings">The Internet!</li>
+                    <li class="radio"><label><input name="prefer" value="3" type="radio" class="userRatings">It's a secret... shhh</label></li> 
+                    </ul>
+                </div>
+            <br>
+                <div>
+                <h3><label for "preferences"> Which of our services are you most interested in?</label></h3>
+                <ul id="preferences" style="list-style: none;">
+                    <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Web Design</label></li>
+                    <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Software Development</li>
+                    <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">UI/UX Design</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Product Development</label></li>   
+                    </ul>
+            </div>
+            <br>
+            <div>
+                <h3><label for "additional-comments">Anything else you'd like us to know?</label></h3>
+                <br>
+                <textarea autofocus type="text-area" name="age" id="comments" class="input-field" style="height:50px; width: 200px; resize:vertical;"></textarea>
+            </div>
+                <div>
+            <button class="learn-more" type="submit">Submit</button>
+            </div>
+            </form>
+        
+        <footer>
+            <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+            </nav>
+        </footer>
+    </div><!-- container -->        
+</body>
+</html>
